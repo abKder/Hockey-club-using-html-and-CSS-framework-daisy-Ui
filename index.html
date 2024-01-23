@@ -29,7 +29,7 @@
 </head>
 
 <body>
-  <header class="container mx-auto ">
+  <header class="container w-3/4 mx-auto ">
     <!-- navbar section start here  -->
     <div class="navbar bg-base-100">
       <div class="navbar-start">
@@ -50,7 +50,7 @@
         </div>
         <a class="btn btn-ghost text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</a>
       </div>
-      <div class="navbar-center hidden lg:flex">
+      <div class=" navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
           <li><a class="text-[#FF4240]">Home</a></li>
           <li><a>About</a></li>
@@ -60,14 +60,16 @@
         </ul>
       </div>
       <div class="flex gap-5 navbar-end">
-        <img src="images/Frame.png" alt="">
+        <img class="hidden md:block lg:block" src="images/Frame.png" alt="">
         <div class="">
 
           <a class="btn bg-[#FF4240] text-1xl text-white">Get Ticket</a>
         </div>
       </div>
     </div>
+
     <!-- hero section start here  -->
+
     <div class="container mx-auto lg:px-20 my-24 ">
       <div class="relative">
         <div class="carousel w-full">
@@ -100,7 +102,7 @@
             </div>
           </div>
         </div>
-        <div class=" container mx-auto md:container md:mx-auto  lg:absolute  lg:-mt-[15%] lg:left-[70%] ">
+        <div class=" container mx-auto md:container md:mx-auto  lg:absolute  lg:-mt-[15%] lg:left-[68%] ">
           <div class="card w-96 bg-neutral text-neutral-content">
             <div class="card-body items-center text-center">
               <h2 class="card-title font-bold">Meet all the heroes from the field</h2>
@@ -116,12 +118,13 @@
   </div>
   <main>
     <!-- professional hockey club section start here  -->
+
     <section class="text-center my-24 container mx-auto sm:my-24">
       <h2 class="font-extrabold text-5xl mb-5">Professional Hockeys Club</h2>
       <p class="lg:max-w-3xl mx-auto mb-10">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
         placerat dolor. Purus urna in sit nullam proin.</p>
 
-      <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <div class="grid gap-6 w-3/4 mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <!-- 1st card start here  -->
         <div class="card w-70 bg-base-100">
           <div>
@@ -188,61 +191,65 @@
         </div>
       </div>
     </section>
+
     <!-- program section start here  -->
-    <section class="text-center my-24 container mx-auto">
+
+    <section class="text-center  my-24 container mx-auto">
       <h2 class="font-extrabold text-5xl mb-5">Program Sections</h2>
       <p class="lg:max-w-3xl mx-auto mb-10">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
         placerat dolor. Purus urna in sit nullam proin. </p>
-      <div class="grid gap-6 grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
-        <div class="hero  " style=" background-image: url(images/2.png) ;">
-          <div class="hero-overlay bg-opacity-60"></div>
-          <div class="hero-content text-start text-neutral-content">
-            <div class="max-w-md">
-              <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
-              <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
-              </p>
-              <button class="btn bg-[#FF4240] text-1xl text-white">Register Now!</button>
-            </div>
-          </div>
-        </div>
-        <div class="hero  " style="background-image: url(images/3.png);">
-          <div class="hero-overlay bg-opacity-60"></div>
-          <div class="hero-content text-start text-neutral-content">
-            <div class="max-w-md">
-              <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
-              <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
-              </p>
-              <button class="btn bg-[#FF4240] text-1xl text-white">Register Now!</button>
-            </div>
-          </div>
 
-        </div>
-      </div>
-      <div class="hero   mt-8" style="background-image: url(images/4.png);">
-        <div class="hero-overlay bg-opacity-60"></div>
-        <div class="hero-content text-start text-neutral-content">
-          <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">Professional Program</h1>
-            <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+
+
+      <div class="grid gap-6 my-6 w-3/4 mx-auto grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+
+        <div class="card  bg-base-100 shadow-xl image-full ">
+          <figure><img src="images/2.png" alt="hockey" /></figure>
+          <div class="card-body">
+            <h2 class="card-title mt-14 mb-5 text-4xl font-semibold ">Junior Program</h2>
+            <p class="text-start">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
               enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
             </p>
+            <div class="card-actions justify-start">
+              <button class="btn bg-[#FF4240] text-1xl text-white">Register Now!</button>
+            </div>
+          </div>
+        </div>
+        <div class="card  bg-base-100 shadow-xl image-full">
+          <figure><img src="images/3.png" alt="hockey" /></figure>
+          <div class="card-body">
+            <h1 class=" card-title  mt-14 mb-5 text-4xl font-semibold">Teenager Program</h1>
+            <p class="text-start">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet  nunc morbi nulla. Tortor congue sed et
+              in.</p>
+            <div class="card-actions justify-start">
+              <button class="btn bg-[#FF4240] text-1xl text-white">Register Now!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card w-3/4 mx-auto bg-base-100 shadow-xl image-full">
+        <figure><img src="images/4.png" alt="hockey" /></figure>
+        <div class="card-body ">
+          <h2 class="card-title mt-32  mb-5 text-4xl font-semibold">Professional Program</h2>
+          <p class="text-start">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc <br> morbi nulla. Tortor congue sed et in.</p>
+          <div class="card-actions justify-start">
             <button class="btn bg-[#FF4240] text-1xl text-white">Register Now!</button>
           </div>
         </div>
       </div>
     </section>
+
     <!-- Our New product section start here  -->
 
     <section class="text-center my-24 container mx-auto">
       <h2 class="font-extrabold text-5xl mb-5">Our New Products</h2>
       <p class="lg:max-w-3xl mx-auto mb-10">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
         placerat dolor. Purus urna in sit nullam proin. </p>
-      <!-- grid gap-6 grid-cols-1 md:grid-cols-1 lg:grid-cols-2 -->
-      <div class="grid gap-6 grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+      <div class="grid gap-6 w-3/4 mx-auto grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
         <!-- 1st card start here  -->
-        <div class=" bg-base-100 shadow-xl flex gap-5 rounded-2xl">
+        <div class=" bg-base-100 shadow-xl flex  gap-5 rounded-2xl ">
           <div>
             <img class="px-4 py-4 pt-4" src="images/5.png" alt="">
           </div>
@@ -453,14 +460,16 @@
       </div>
 
     </section>
+
     <!-- client question section start here  -->
+
     <section class="text-center my-24 container mx-auto">
       <h2 class="font-extrabold text-5xl mb-5">Clients Question</h2>
       <p class="lg:max-w-3xl mx-auto mb-10">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
         placerat dolor. Purus urna in sit nullam proin. </p>
 
 
-      <div class=" flex mx-auto flex-col lg:flex-row lg:mx-auto">
+      <div class=" flex w-3/4 mx-auto flex-col lg:flex-row lg:mx-auto">
         <div class="hero-content">
           <img src="images/11.png" class="max-w-sm rounded-lg shadow-2xl" />
         </div>
@@ -529,6 +538,7 @@
     </section>
 
     <!-- get in touch section start here  -->
+
     <section class="container mx-auto">
       <div class="text-center  container mx-auto">
         <h2 class="font-extrabold text-5xl mb-5">Get In Touch</h2>
@@ -587,18 +597,24 @@
             <h1 class="font-extrabold text-2xl my-2">Message:</h1>
             <textarea class="w-full textarea  bg-slate-200 my-6" placeholder="Write your message here..."
               rows="5"></textarea>
-              <button class="btn w-full bg-[#FF4240] font-bold text-black">Send Message</button>
+            <button class="btn w-full bg-[#FF4240] font-bold text-black">Send Message</button>
           </div>
         </div>
       </div>
-</section>
-      <!-- social media section start here  -->
-      <section class="text-center my-24 container mx-auto rounded bg-base-200 pt-8">
-        <h2 class="font-extrabold text-2xl mb-5">Social Media</h2>
-        <img class="mx-auto py-8" src="images/Social.png" alt="">
-      </section>
+    </section>
+
+    <!-- social media section start here  -->
+
+    <section class=" container mx-auto text-center my-24">
+     <div class="  w-3/4 mx-auto rounded bg-base-200 pt-8">
+      <h2 class="font-extrabold text-2xl mb-5">Social Media</h2>
+      <img class="mx-auto py-8" src="images/Social.png" alt="">
+     </div>
+    </section>
+
   </main>
   <!-- footer section start here  -->
+
   <footer class="footer p-10 bg-neutral text-neutral-content justify-around">
     <div>
       <header class="footer-title">Gt In Touch</header>
